@@ -166,11 +166,6 @@ export const IphonePlus = (): JSX.Element => {
 
 
 ## OUTPUT:
-![alt text](<Screenshot (33).png>) 
-![alt text](<Screenshot (30).png>)
- ![alt text](<Screenshot (31).png>)
-  ![alt text](<Screenshot (32).png>)
-
-
+![alt text](<Screenshot (30)-2.png>) ![alt text](<Screenshot (31)-2.png>) ![alt text](<Screenshot (32)-2.png>) ![alt text](<Screenshot (33)-2.png>)
 ## RESULT:
 The program to design, develop and deploy a web application for event registration using Figma UI tool is completed successfully.
