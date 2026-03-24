@@ -37,135 +37,445 @@ Select the specific frame while generating code using Anima plugin.
 ```
 Home page:1
 
-import officialHomepagePlayNowOnIosAndroid1 from "./official-homepage-play-now-on-ios-android-1.png";
-
-export const Iphone = (): JSX.Element => {
-  return (
-    <div className="bg-[#730c80] w-full min-w-[393px] min-h-[852px] relative">
-      <img
-        className="absolute top-0 left-0 w-[393px] h-[852px] aspect-[0.59] object-cover"
-        alt="Official homepage"
-        src={officialHomepagePlayNowOnIosAndroid1}
-      />
-
-      <div className="absolute top-[713px] left-[52px] w-[5px] h-[3px] bg-[#d9d9d9]" />
-
-      <div className="absolute top-[777px] left-[78px] w-[261px] h-[51px] bg-[#420af8] blur-[2px]" />
-
-      <div className="absolute top-[778px] left-[126px] w-[227px] [font-family:'Glegoo-Regular',Helvetica] font-normal text-white text-2xl tracking-[0] leading-[normal] whitespace-nowrap">
-        Loading..50%
-      </div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iphone">
+      <img class="official-homepage" src="img/official-homepage-play-now-on-ios-android-1.png" />
+      <div class="rectangle"></div>
+      <img class="text-on-a-path" src="img/text-on-a-path.svg" />
+      <div class="frame"><div class="text-wrapper">Hari prasath.M</div></div>
+      <div class="div">25018172</div>
     </div>
-  );
-};
+  </body>
+</html>
 
-page:2
+style.css1
 
-import download131 from "./download-13-1.png";
-import rectangle3 from "./rectangle-3.svg";
+.iphone {
+  background-color: #730c80;
+  overflow: hidden;
+  width: 100%;
+  min-width: 393px;
+  min-height: 852px;
+  position: relative;
+}
 
-export const IphonePlus = (): JSX.Element => {
-  return (
-    <div className="bg-white w-full min-w-96 min-h-[852px] relative">
-      <img
-        className="absolute top-0 left-0 w-96 h-[852px] aspect-[0.45] object-cover"
-        alt="Download"
-        src={download131}
-      />
+.iphone .official-homepage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 393px;
+  height: 852px;
+  aspect-ratio: 0.59;
+  object-fit: cover;
+}
 
-      <img
-        className="absolute top-[598px] left-[53px] w-60 h-16"
-        alt="Rectangle"
-        src={rectangle3}
-      />
+.iphone .rectangle {
+  position: absolute;
+  top: 713px;
+  left: 52px;
+  width: 5px;
+  height: 3px;
+  background-color: #d9d9d9;
+}
 
-      <div className="absolute top-[609px] left-[95px] w-[194px] [font-family:'Glegoo-Regular',Helvetica] font-normal text-black text-2xl tracking-[0] leading-[normal]">
-        Tap to play
-      </div>
+.iphone .text-on-a-path {
+  position: absolute;
+  top: 818px;
+  left: 730px;
+  width: 241px;
+  height: 46px;
+}
 
-      <div className="absolute top-[754px] left-6 w-[149px] h-[71px] bg-[#12f20b33] backdrop-blur-[2.0px] backdrop-brightness-[100.0%] backdrop-saturate-[100.0%] [-webkit-backdrop-filter:blur(2.0px)_brightness(100.0%)_saturate(100.0%)] shadow-[inset_0_1px_0_rgba(255,255,255,0.40),inset_1px_0_0_rgba(255,255,255,0.32),inset_0_-1px_1px_rgba(0,0,0,0.13),inset_-1px_0_1px_rgba(0,0,0,0.11)]" />
+.iphone .frame {
+  position: absolute;
+  top: 740px;
+  left: 13px;
+  width: 294px;
+  height: 47px;
+  display: flex;
+  overflow: hidden;
+}
 
-      <div className="absolute top-[767px] left-[35px] w-[157px] [font-family:'Glegoo-Regular',Helvetica] font-normal text-[#ea12aa] text-2xl tracking-[0] leading-[normal]">
-        Characters
-      </div>
+.iphone .text-wrapper {
+  margin-top: 12px;
+  width: 178px;
+  height: 43px;
+  margin-left: 82px;
+  font-family: "Glegoo-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffd711;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
 
-      <div className="absolute top-[754px] left-48 w-[171px] h-[71px] bg-[#fe08e133] backdrop-blur-[2.0px] backdrop-brightness-[100.0%] backdrop-saturate-[100.0%] [-webkit-backdrop-filter:blur(2.0px)_brightness(100.0%)_saturate(100.0%)] shadow-[inset_0_1px_0_rgba(255,255,255,0.40),inset_1px_0_0_rgba(255,255,255,0.32),inset_0_-1px_1px_rgba(0,0,0,0.13),inset_-1px_0_1px_rgba(0,0,0,0.11)]" />
+.iphone .div {
+  position: absolute;
+  top: 798px;
+  left: 98px;
+  width: 175px;
+  font-family: "Glegoo-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
 
-      <div className="absolute top-[747px] left-[227px] w-[136px] [font-family:'Glegoo-Regular',Helvetica] font-normal text-[#fa4d08] text-2xl tracking-[0] leading-[normal]">
-        Claim Rewards
-      </div>
+page 2:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iphone-plus">
+      <img class="download" src="img/download-13-1.png" />
+      <img class="rectangle" src="img/rectangle-3.svg" />
+      <div class="text-wrapper">Tap to play</div>
+      <div class="div"></div>
+      <div class="text-wrapper-2">Characters</div>
+      <div class="rectangle-2"></div>
+      <div class="text-wrapper-3">Claim Rewards</div>
     </div>
-  );
-};
+  </body>
+</html>
 
-page:3
+style.css2:
 
-import x2331 from "./233-1.png";
-import textOnAPath from "./text-on-a-path.svg";
+.iphone-plus {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 384px;
+  min-height: 852px;
+  position: relative;
+}
 
-export const IphonePlus = (): JSX.Element => {
-  return (
-    <div className="bg-white overflow-hidden w-full min-w-[383px] min-h-[852px] relative">
-      <img
-        className="absolute top-0 left-0 w-[383px] h-[852px] aspect-[0.75] object-cover"
-        alt="Element"
-        src={x2331}
-      />
+.iphone-plus .download {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 384px;
+  height: 852px;
+  aspect-ratio: 0.45;
+  object-fit: cover;
+}
 
-      <img
-        className="absolute top-[395px] left-[-582px] w-[291px] h-[109px]"
-        alt="Text on a path"
-        src={textOnAPath}
-      />
+.iphone-plus .rectangle {
+  position: absolute;
+  top: 598px;
+  left: 53px;
+  width: 240px;
+  height: 64px;
+}
 
-      <div className="absolute top-[312px] left-[66px] w-[303px] h-[91px] bg-[#372b7e33] backdrop-blur-[2.0px] backdrop-brightness-[100.0%] backdrop-saturate-[100.0%] [-webkit-backdrop-filter:blur(2.0px)_brightness(100.0%)_saturate(100.0%)] shadow-[inset_0_1px_0_rgba(255,255,255,0.40),inset_1px_0_0_rgba(255,255,255,0.32),inset_0_-1px_1px_rgba(0,0,0,0.13),inset_-1px_0_1px_rgba(0,0,0,0.11)]" />
+.iphone-plus .text-wrapper {
+  position: absolute;
+  top: 609px;
+  left: 95px;
+  width: 194px;
+  font-family: "Glegoo-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
 
-      <p className="absolute top-[319px] left-[94px] w-[260px] [font-family:'Glegoo-Regular',Helvetica] font-normal text-[#21d87f] text-2xl tracking-[0] leading-[normal]">
-        Use one key to play retry
-      </p>
+.iphone-plus .div {
+  position: absolute;
+  top: 754px;
+  left: 24px;
+  width: 149px;
+  height: 71px;
+  background-color: #12f20b33;
+  backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  -webkit-backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 1px 0 0 rgba(
+      255,
+      255,
+      255,
+      0.32
+    ), inset 0 -1px 1px rgba(0, 0, 0, 0.13), inset -1px 0 1px rgba(
+      0,
+      0,
+      0,
+      0.11
+    );
+}
+
+.iphone-plus .text-wrapper-2 {
+  position: absolute;
+  top: 767px;
+  left: 35px;
+  width: 157px;
+  font-family: "Glegoo-Regular", Helvetica;
+  font-weight: 400;
+  color: #ea12aa;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-plus .rectangle-2 {
+  position: absolute;
+  top: 754px;
+  left: 192px;
+  width: 171px;
+  height: 71px;
+  background-color: #fe08e133;
+  backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  -webkit-backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 1px 0 0 rgba(
+      255,
+      255,
+      255,
+      0.32
+    ), inset 0 -1px 1px rgba(0, 0, 0, 0.13), inset -1px 0 1px rgba(
+      0,
+      0,
+      0,
+      0.11
+    );
+}
+
+.iphone-plus .text-wrapper-3 {
+  position: absolute;
+  top: 747px;
+  left: 227px;
+  width: 136px;
+  font-family: "Glegoo-Regular", Helvetica;
+  font-weight: 400;
+  color: #fa4d08;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+page 3:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iphone-plus">
+      <img class="download" src="img/download-14-1.png" />
+      <img class="text-on-a-path" src="img/text-on-a-path.svg" />
+      <div class="rectangle"></div>
+      <div class="text-wrapper">Swipe left</div>
+      <img class="arrow" src="img/arrow-1.svg" />
     </div>
-  );
-};
+  </body>
+</html>
 
-page:4
+style.css
 
-import x2331 from "./233-1.png";
-import textOnAPath from "./text-on-a-path.svg";
+.iphone-plus {
+  background-color: #0f0647;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+  width: 100%;
+  min-width: 405px;
+  min-height: 852px;
+  position: relative;
+}
 
-export const IphonePlus = (): JSX.Element => {
-  return (
-    <div className="bg-white overflow-hidden w-full min-w-[383px] min-h-[852px] relative">
-      <img
-        className="absolute top-0 left-0 w-[383px] h-[852px] aspect-[0.75] object-cover"
-        alt="Element"
-        src={x2331}
-      />
+.iphone-plus .download {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 405px;
+  height: 852px;
+  aspect-ratio: 0.56;
+  object-fit: cover;
+}
 
-      <img
-        className="absolute top-[395px] left-[-582px] w-[291px] h-[109px]"
-        alt="Text on a path"
-        src={textOnAPath}
-      />
+.iphone-plus .text-on-a-path {
+  position: absolute;
+  top: 527px;
+  left: -113px;
+  width: 167px;
+  height: 72px;
+}
 
-      <div className="absolute top-[312px] left-[66px] w-[303px] h-[91px] bg-[#372b7e33] backdrop-blur-[2.0px] backdrop-brightness-[100.0%] backdrop-saturate-[100.0%] [-webkit-backdrop-filter:blur(2.0px)_brightness(100.0%)_saturate(100.0%)] shadow-[inset_0_1px_0_rgba(255,255,255,0.40),inset_1px_0_0_rgba(255,255,255,0.32),inset_0_-1px_1px_rgba(0,0,0,0.13),inset_-1px_0_1px_rgba(0,0,0,0.11)]" />
+.iphone-plus .rectangle {
+  position: absolute;
+  top: 415px;
+  left: 102px;
+  width: 167px;
+  height: 99px;
+  background-color: #17c4bb33;
+  backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  -webkit-backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 1px 0 0 rgba(
+      255,
+      255,
+      255,
+      0.32
+    ), inset 0 -1px 1px rgba(0, 0, 0, 0.13), inset -1px 0 1px rgba(
+      0,
+      0,
+      0,
+      0.11
+    );
+}
 
-      <p className="absolute top-[319px] left-[94px] w-[260px] [font-family:'Glegoo-Regular',Helvetica] font-normal text-[#21d87f] text-2xl tracking-[0] leading-[normal]">
-        Use one key to play retry
-      </p>
+.iphone-plus .text-wrapper {
+  position: absolute;
+  top: 435px;
+  left: 134px;
+  width: 135px;
+  font-family: "Glegoo-Regular", Helvetica;
+  font-weight: 400;
+  color: #161212;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
 
-      <div className="absolute top-[78px] left-0 w-[383px] h-[58px] bg-[#d6bfbf]" />
+.iphone-plus .arrow {
+  position: absolute;
+  top: 491px;
+  left: 133px;
+  width: 111px;
+  height: 15px;
+}
 
-      <div className="absolute top-[87px] left-[38px] w-[331px] [font-family:'Glegoo-Regular',Helvetica] font-normal text-black text-2xl tracking-[0] leading-[normal]">
-        M.Hari prasath-25018172
-      </div>
+
+page 4:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iphone-plus">
+      <img class="element" src="img/233-1.png" />
+      <img class="text-on-a-path" src="img/text-on-a-path.svg" />
+      <div class="rectangle"></div>
+      <p class="text-wrapper">Use one key to play retry</p>
+      <div class="div"></div>
+      <div class="text-wrapper-2">M.Hari prasath-25018172</div>
     </div>
-  );
-};
+  </body>
+</html>
+
+style.css
+
+.iphone-plus {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 383px;
+  min-height: 852px;
+  position: relative;
+}
+
+.iphone-plus .element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 383px;
+  height: 852px;
+  aspect-ratio: 0.75;
+  object-fit: cover;
+}
+
+.iphone-plus .text-on-a-path {
+  position: absolute;
+  top: 395px;
+  left: -582px;
+  width: 291px;
+  height: 109px;
+}
+
+.iphone-plus .rectangle {
+  position: absolute;
+  top: 312px;
+  left: 66px;
+  width: 303px;
+  height: 91px;
+  background-color: #372b7e33;
+  backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  -webkit-backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 1px 0 0 rgba(
+      255,
+      255,
+      255,
+      0.32
+    ), inset 0 -1px 1px rgba(0, 0, 0, 0.13), inset -1px 0 1px rgba(
+      0,
+      0,
+      0,
+      0.11
+    );
+}
+
+.iphone-plus .text-wrapper {
+  position: absolute;
+  top: 319px;
+  left: 94px;
+  width: 260px;
+  font-family: "Glegoo-Regular", Helvetica;
+  font-weight: 400;
+  color: #21d87f;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-plus .div {
+  position: absolute;
+  top: 78px;
+  left: 0;
+  width: 383px;
+  height: 58px;
+  background-color: #d6bfbf;
+}
+
+.iphone-plus .text-wrapper-2 {
+  position: absolute;
+  top: 87px;
+  left: 38px;
+  width: 331px;
+  font-family: "Glegoo-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
 
 ```
 
 
 ## OUTPUT:
-![alt text](<Screenshot (30)-2.png>) ![alt text](<Screenshot (31)-2.png>) ![alt text](<Screenshot (32)-2.png>) ![alt text](<Screenshot (33)-2.png>)
+![alt text](1.png)![alt text](2.png)![alt text](3.png)![alt text](4.png)
 ## RESULT:
 The program to design, develop and deploy a web application for event registration using Figma UI tool is completed successfully.
