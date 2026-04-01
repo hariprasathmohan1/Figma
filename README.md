@@ -1,5 +1,5 @@
 # Ex08 Event Registration Web Application
-## Date:24.03.2026
+## Date:02.04.2026
 
 ## AIM:
 To design, develop and deploy a web application for event registration using Figma UI tool.
@@ -37,6 +37,7 @@ Select the specific frame while generating code using Anima plugin.
 ```
 Home page:1
 
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -46,88 +47,115 @@ Home page:1
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="iphone">
-      <img class="official-homepage" src="img/official-homepage-play-now-on-ios-android-1.png" />
-      <div class="rectangle"></div>
+    <div class="iphone-pro">
+      <img class="unleash-your-inner" src="img/unleash-your-inner-athlete-vibrant-motivational-sports-art-1.png" />
+      <img class="sec-logo" src="img/sec-logo-1.png" />
       <img class="text-on-a-path" src="img/text-on-a-path.svg" />
-      <div class="frame"><div class="text-wrapper">Hari prasath.M</div></div>
-      <div class="div">25018172</div>
+      <div class="rectangle"></div>
+      <div class="text-wrapper">LOGIN</div>
+      <div class="div"></div>
+      <div class="text-wrapper-2">REGISTER</div>
+      <div class="text-wrapper-3">Born To Win...</div>
     </div>
   </body>
 </html>
 
-style.css1
-
-.iphone {
-  background-color: #730c80;
+.iphone-pro {
+  background-color: #d1e60f;
   overflow: hidden;
   width: 100%;
-  min-width: 393px;
-  min-height: 852px;
+  min-width: 402px;
+  min-height: 874px;
   position: relative;
 }
 
-.iphone .official-homepage {
+.iphone-pro .unleash-your-inner {
   position: absolute;
   top: 0;
   left: 0;
-  width: 393px;
-  height: 852px;
-  aspect-ratio: 0.59;
+  width: 402px;
+  height: 874px;
+  aspect-ratio: 0.7;
   object-fit: cover;
 }
 
-.iphone .rectangle {
+.iphone-pro .sec-logo {
   position: absolute;
-  top: 713px;
-  left: 52px;
-  width: 5px;
-  height: 3px;
-  background-color: #d9d9d9;
+  top: 0;
+  left: 0;
+  width: 402px;
+  height: 99px;
+  aspect-ratio: 4.3;
+  object-fit: cover;
 }
 
-.iphone .text-on-a-path {
+.iphone-pro .text-on-a-path {
   position: absolute;
-  top: 818px;
-  left: 730px;
-  width: 241px;
-  height: 46px;
+  top: 688px;
+  left: 1025px;
+  width: 181px;
+  height: 50px;
 }
 
-.iphone .frame {
+.iphone-pro .rectangle {
   position: absolute;
-  top: 740px;
-  left: 13px;
-  width: 294px;
-  height: 47px;
-  display: flex;
-  overflow: hidden;
+  top: 356px;
+  left: 95px;
+  width: 197px;
+  height: 54px;
+  background-color: #f86767;
+  box-shadow: inset 0px 4px 4px #00000040;
 }
 
-.iphone .text-wrapper {
-  margin-top: 12px;
-  width: 178px;
-  height: 43px;
-  margin-left: 82px;
-  font-family: "Glegoo-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffd711;
-  font-size: 24px;
+.iphone-pro .text-wrapper {
+  position: absolute;
+  top: 366px;
+  left: 142px;
+  width: 150px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ff1212;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone-pro .div {
+  position: absolute;
+  top: 475px;
+  left: 58px;
+  width: 259px;
+  height: 64px;
+  background-color: #f36a6a;
+}
+
+.iphone-pro .text-wrapper-2 {
+  position: absolute;
+  top: 486px;
+  left: 104px;
+  width: 253px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #f50c0c;
+  font-size: 32px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.iphone .div {
+.iphone-pro .text-wrapper-3 {
   position: absolute;
-  top: 798px;
-  left: 98px;
-  width: 175px;
-  font-family: "Glegoo-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 24px;
+  top: 653px;
+  left: 29px;
+  width: 166px;
+  font-family: "Inter-ThinItalic", Helvetica;
+  font-weight: 100;
+  font-style: italic;
+  color: #752a2a;
+  font-size: 32px;
   letter-spacing: 0;
   line-height: normal;
+  white-space: nowrap;
 }
 
 page 2:
@@ -141,130 +169,42 @@ page 2:
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="iphone-plus">
-      <img class="download" src="img/download-13-1.png" />
-      <img class="rectangle" src="img/rectangle-3.svg" />
-      <div class="text-wrapper">Tap to play</div>
-      <div class="div"></div>
-      <div class="text-wrapper-2">Characters</div>
-      <div class="rectangle-2"></div>
-      <div class="text-wrapper-3">Claim Rewards</div>
+    <div class="iphone-pro-max">
+      <img class="download" src="img/download-3-1.png" />
+      <div class="text-wrapper">Sports Day Events</div>
+      <p class="volley-ball">
+        volley Ball<br />400mts relay<br />100mts <br />200mts<br />cricket under 18<br />badminton
+      </p>
     </div>
   </body>
 </html>
 
-style.css2:
-
-.iphone-plus {
+.iphone-pro-max {
   background-color: #ffffff;
   width: 100%;
-  min-width: 384px;
-  min-height: 852px;
+  min-width: 440px;
+  min-height: 956px;
   position: relative;
 }
 
-.iphone-plus .download {
+.iphone-pro-max .download {
   position: absolute;
   top: 0;
   left: 0;
-  width: 384px;
-  height: 852px;
-  aspect-ratio: 0.45;
+  width: 440px;
+  height: 956px;
+  aspect-ratio: 0.71;
   object-fit: cover;
 }
 
-.iphone-plus .rectangle {
+.iphone-pro-max .text-wrapper {
   position: absolute;
-  top: 598px;
-  left: 53px;
-  width: 240px;
-  height: 64px;
-}
-
-.iphone-plus .text-wrapper {
-  position: absolute;
-  top: 609px;
-  left: 95px;
-  width: 194px;
-  font-family: "Glegoo-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.iphone-plus .div {
-  position: absolute;
-  top: 754px;
-  left: 24px;
-  width: 149px;
-  height: 71px;
-  background-color: #12f20b33;
-  backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
-  -webkit-backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 1px 0 0 rgba(
-      255,
-      255,
-      255,
-      0.32
-    ), inset 0 -1px 1px rgba(0, 0, 0, 0.13), inset -1px 0 1px rgba(
-      0,
-      0,
-      0,
-      0.11
-    );
-}
-
-.iphone-plus .text-wrapper-2 {
-  position: absolute;
-  top: 767px;
-  left: 35px;
-  width: 157px;
-  font-family: "Glegoo-Regular", Helvetica;
-  font-weight: 400;
-  color: #ea12aa;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.iphone-plus .rectangle-2 {
-  position: absolute;
-  top: 754px;
-  left: 192px;
-  width: 171px;
-  height: 71px;
-  background-color: #fe08e133;
-  backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
-  -webkit-backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 1px 0 0 rgba(
-      255,
-      255,
-      255,
-      0.32
-    ), inset 0 -1px 1px rgba(0, 0, 0, 0.13), inset -1px 0 1px rgba(
-      0,
-      0,
-      0,
-      0.11
-    );
-}
-
-.iphone-plus .text-wrapper-3 {
-  position: absolute;
-  top: 747px;
-  left: 227px;
-  width: 136px;
-  font-family: "Glegoo-Regular", Helvetica;
-  font-weight: 400;
-  color: #fa4d08;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
+  top: 272px;
+  left: 0;
+  width: 273px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #f7d114;
 
 page 3:
 
@@ -277,54 +217,114 @@ page 3:
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="iphone-plus">
-      <img class="download" src="img/download-14-1.png" />
-      <img class="text-on-a-path" src="img/text-on-a-path.svg" />
+    <div class="iphone-pro-max">
+      <img class="download" src="img/download-4-1.png" />
+      <div class="text-wrapper">Event Registration Form</div>
+      <div class="div">fill the detailsbelow:</div>
       <div class="rectangle"></div>
-      <div class="text-wrapper">Swipe left</div>
-      <img class="arrow" src="img/arrow-1.svg" />
+      <div class="text-wrapper-2">Full Name:</div>
+      <div class="rectangle-2"></div>
+      <div class="text-wrapper-3">Age:</div>
+      <div class="rectangle-3"></div>
+      <div class="text-wrapper-4">Gender:</div>
+      <div class="rectangle-4"></div>
+      <div class="text-wrapper-5">Register no:</div>
+      <div class="rectangle-5"></div>
+      <div class="text-wrapper-6">Department:</div>
+      <div class="rectangle-6"></div>
+      <div class="text-wrapper-7">Email id:</div>
+      <div class="rectangle-7"></div>
+      <div class="text-wrapper-8">REGISTER</div>
     </div>
   </body>
 </html>
 
-style.css
 
-.iphone-plus {
-  background-color: #0f0647;
-  overflow: hidden;
-  border: 1px solid;
-  border-color: #000000;
+}
+
+.iphone-pro-max {
+  background-color: #ffffff;
   width: 100%;
-  min-width: 405px;
-  min-height: 852px;
+  min-width: 440px;
+  min-height: 956px;
   position: relative;
 }
 
-.iphone-plus .download {
+.iphone-pro-max .download {
   position: absolute;
   top: 0;
   left: 0;
-  width: 405px;
-  height: 852px;
-  aspect-ratio: 0.56;
+  width: 440px;
+  height: 956px;
+  aspect-ratio: 0.75;
   object-fit: cover;
 }
 
-.iphone-plus .text-on-a-path {
+.iphone-pro-max .text-wrapper {
   position: absolute;
-  top: 527px;
-  left: -113px;
-  width: 167px;
-  height: 72px;
+  top: 26px;
+  left: 25px;
+  width: 385px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #1e1e1e;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
 }
 
-.iphone-plus .rectangle {
+.iphone-pro-max .div {
   position: absolute;
-  top: 415px;
-  left: 102px;
-  width: 167px;
-  height: 99px;
-  background-color: #17c4bb33;
+  top: 62px;
+  left: 25px;
+  width: 295px;
+  font-family: "Inter-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-pro-max .rectangle {
+  position: absolute;
+  top: 206px;
+  left: 38px;
+  width: 341px;
+  height: 81px;
+  box-shadow: inset 0px 4px 4px #00000040;
+  background: linear-gradient(
+    90deg,
+    rgba(217, 217, 217, 0.51) 0%,
+    rgba(197, 197, 197, 0.51) 19%,
+    rgba(186, 186, 186, 0.51) 31%,
+    rgba(115, 115, 115, 0.51) 100%
+  );
+}
+
+.iphone-pro-max .text-wrapper-2 {
+  position: absolute;
+  top: 230px;
+  left: 62px;
+  width: 291px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #1b0d0d;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-pro-max .rectangle-2 {
+  position: absolute;
+  top: 302px;
+  left: 38px;
+  width: 217px;
+  height: 66px;
+  background-color: #d9d9d933;
   backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
   -webkit-backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
   box-shadow:
@@ -341,29 +341,189 @@ style.css
     );
 }
 
-.iphone-plus .text-wrapper {
+.iphone-pro-max .text-wrapper-3 {
   position: absolute;
-  top: 435px;
-  left: 134px;
-  width: 135px;
-  font-family: "Glegoo-Regular", Helvetica;
-  font-weight: 400;
-  color: #161212;
-  font-size: 24px;
+  top: 320px;
+  left: 45px;
+  width: 210px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone-pro-max .rectangle-3 {
+  position: absolute;
+  top: 384px;
+  left: 30px;
+  width: 286px;
+  height: 61px;
+  background-color: #d9d9d933;
+  backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  -webkit-backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 1px 0 0 rgba(
+      255,
+      255,
+      255,
+      0.32
+    ), inset 0 -1px 1px rgba(0, 0, 0, 0.13), inset -1px 0 1px rgba(
+      0,
+      0,
+      0,
+      0.11
+    );
+}
+
+.iphone-pro-max .text-wrapper-4 {
+  position: absolute;
+  top: 398px;
+  left: 45px;
+  width: 227px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 32px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.iphone-plus .arrow {
+.iphone-pro-max .rectangle-4 {
   position: absolute;
-  top: 491px;
-  left: 133px;
-  width: 111px;
-  height: 15px;
+  top: 455px;
+  left: 38px;
+  width: 298px;
+  height: 66px;
+  background-color: #d9d9d933;
+  backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  -webkit-backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 1px 0 0 rgba(
+      255,
+      255,
+      255,
+      0.32
+    ), inset 0 -1px 1px rgba(0, 0, 0, 0.13), inset -1px 0 1px rgba(
+      0,
+      0,
+      0,
+      0.11
+    );
 }
 
+.iphone-pro-max .text-wrapper-5 {
+  position: absolute;
+  top: 475px;
+  left: 45px;
+  width: 216px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
 
-page 4:
+.iphone-pro-max .rectangle-5 {
+  position: absolute;
+  top: 550px;
+  left: 38px;
+  width: 282px;
+  height: 70px;
+  background-color: #d9d9d933;
+  backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  -webkit-backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 1px 0 0 rgba(
+      255,
+      255,
+      255,
+      0.32
+    ), inset 0 -1px 1px rgba(0, 0, 0, 0.13), inset -1px 0 1px rgba(
+      0,
+      0,
+      0,
+      0.11
+    );
+}
+
+.iphone-pro-max .text-wrapper-6 {
+  position: absolute;
+  top: 564px;
+  left: 43px;
+  width: 212px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-pro-max .rectangle-6 {
+  position: absolute;
+  top: 649px;
+  left: 34px;
+  width: 306px;
+  height: 72px;
+  background-color: #d9d9d933;
+  backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  -webkit-backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 1px 0 0 rgba(
+      255,
+      255,
+      255,
+      0.32
+    ), inset 0 -1px 1px rgba(0, 0, 0, 0.13), inset -1px 0 1px rgba(
+      0,
+      0,
+      0,
+      0.11
+    );
+}
+
+.iphone-pro-max .text-wrapper-7 {
+  position: absolute;
+  top: 670px;
+  left: 43px;
+  width: 249px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #170505;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone-pro-max .rectangle-7 {
+  position: absolute;
+  top: 790px;
+  left: 93px;
+  width: 286px;
+  height: 70px;
+  background-color: #e55959;
+  box-shadow: inset 0px 4px 4px #00000040;
+}
+
+.iphone-pro-max .text-wrapper-8 {
+  position: absolute;
+  top: 808px;
+  left: 135px;
+  width: 192px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ff0d0d;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+
+  page 4:
 
 <!DOCTYPE html>
 <html>
@@ -374,100 +534,101 @@ page 4:
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="iphone-plus">
-      <img class="element" src="img/233-1.png" />
-      <img class="text-on-a-path" src="img/text-on-a-path.svg" />
-      <div class="rectangle"></div>
-      <p class="text-wrapper">Use one key to play retry</p>
-      <div class="div"></div>
-      <div class="text-wrapper-2">M.Hari prasath-25018172</div>
+    <div class="iphone-pro-max">
+      <img class="the-eighteenth-asian" src="img/the-eighteenth-asian-games-posters-1.png" />
+      <img class="sec-logo" src="img/sec-logo-2.png" />
+      <div class="text-wrapper">Thank You</div>
+      <p class="we-are-all-eagerly">
+        We are all&nbsp;&nbsp;eagerly waiting for your participation in the sports events.
+      </p>
+      <div class="contact-us-e-mail">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact us:<br /><br />e-mail:saveethaengineeringcollege@gmail.com<br /><br />Phone
+        Number:<br />8220655784&nbsp;&nbsp;&amp;&nbsp;&nbsp;4875560228.
+      </div>
+      <div class="div">Hari prasath-25018172</div>
     </div>
   </body>
-</html>
+</html
 
-style.css
-
-.iphone-plus {
+.iphone-pro-max {
   background-color: #ffffff;
-  overflow: hidden;
   width: 100%;
-  min-width: 383px;
-  min-height: 852px;
+  min-width: 440px;
+  min-height: 956px;
   position: relative;
 }
 
-.iphone-plus .element {
+.iphone-pro-max .the-eighteenth-asian {
   position: absolute;
   top: 0;
   left: 0;
-  width: 383px;
-  height: 852px;
-  aspect-ratio: 0.75;
+  width: 440px;
+  height: 956px;
+  aspect-ratio: 0.68;
   object-fit: cover;
 }
 
-.iphone-plus .text-on-a-path {
+.iphone-pro-max .sec-logo {
   position: absolute;
-  top: 395px;
-  left: -582px;
-  width: 291px;
-  height: 109px;
+  top: 60px;
+  left: 0;
+  width: 440px;
+  height: 105px;
+  aspect-ratio: 4.3;
+  object-fit: cover;
 }
 
-.iphone-plus .rectangle {
+.iphone-pro-max .text-wrapper {
   position: absolute;
-  top: 312px;
-  left: 66px;
-  width: 303px;
-  height: 91px;
-  background-color: #372b7e33;
-  backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
-  -webkit-backdrop-filter: blur(2.0px) brightness(100.0%) saturate(100.0%);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 1px 0 0 rgba(
-      255,
-      255,
-      255,
-      0.32
-    ), inset 0 -1px 1px rgba(0, 0, 0, 0.13), inset -1px 0 1px rgba(
-      0,
-      0,
-      0,
-      0.11
-    );
-}
-
-.iphone-plus .text-wrapper {
-  position: absolute;
-  top: 319px;
-  left: 94px;
-  width: 260px;
-  font-family: "Glegoo-Regular", Helvetica;
-  font-weight: 400;
-  color: #21d87f;
-  font-size: 24px;
+  top: 215px;
+  left: 111px;
+  width: 254px;
+  font-family: "Inter-BlackItalic", Helvetica;
+  font-weight: 900;
+  font-style: italic;
+  color: #000000;
+  font-size: 36px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.iphone-plus .div {
+.iphone-pro-max .we-are-all-eagerly {
   position: absolute;
-  top: 78px;
+  top: 277px;
   left: 0;
-  width: 383px;
-  height: 58px;
-  background-color: #d6bfbf;
+  width: 440px;
+  font-family: "Inter-LightItalic", Helvetica;
+  font-weight: 300;
+  font-style: italic;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-.iphone-plus .text-wrapper-2 {
+.iphone-pro-max .contact-us-e-mail {
   position: absolute;
-  top: 87px;
-  left: 38px;
-  width: 331px;
-  font-family: "Glegoo-Regular", Helvetica;
+  top: 530px;
+  left: 40px;
+  width: 376px;
+  font-family: "Inter-Italic", Helvetica;
   font-weight: 400;
+  font-style: italic;
   color: #000000;
-  font-size: 24px;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-pro-max .div {
+  position: absolute;
+  top: 821px;
+  left: 37px;
+  width: 365px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #2e1c28;
+  font-size: 32px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -476,6 +637,6 @@ style.css
 
 
 ## OUTPUT:
-![alt text](1.png)![alt text](2.png)![alt text](3.png)![alt text](4.png)
+![alt text](<Screenshot (39).png>)![alt text](<Screenshot (40).png>)![alt text](<Screenshot (41).png>)![alt text](<Screenshot (43).png>)
 ## RESULT:
 The program to design, develop and deploy a web application for event registration using Figma UI tool is completed successfully.
